@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+
 
     <title>Studio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -33,16 +37,88 @@
                     <li class=""> <a class="menu link contacts-text" href=""> Contacts </a> </li>
                 </ul>
             </nav>
+            <a class="logo link mobile-logo" href="./index.html">Web<span class="spann stud-span link">Studio</span>
+            </a>
+            <button type="button" class="mobile-menu-open" data-menu-open>
+                <svg width="32" height="22" class="mob-burger-svg">
+                    <use href="./images/icons-2.svg#icon-Vector-converted"></use>
+                </svg>
+            </button>
             <address class="address">
-                <ul class="list top-menu">
-                    <li class=""> <a class="adr link mail" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-                    <li class=""> <a class="adr link" href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
-                </ul>
-                <!-- blue box -->
+                <div class="mail-tel">
+                    <ul class="list top-menu-2">
+                        <li class="address-item"> <a class="adr link mail"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+                        <li class="address-item"> <a class="adr link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                    </ul>
+                </div>
             </address>
+            <div class="menu-2 is-hidden" data-menu>
+                <div class="container mobile-menu-container">
+                    <button data-menu-close class="menu-close-btn">
+                        <svg width="24" height="24" class="menu-close-svg">
+                            <use href="./images/icons-2.svg#icon-close-black-18dp-2-1-1-1"></use>
+                        </svg>
+                    </button>
+                    <ul class="mobile-menu-nav list">
+                        <li class="mobile-menu-nav-items studdio">
+                            <a href="index.html" class="main-page-mobile link">Studio</a>
+                        </li>
+                        <li class="mobile-menu-nav-items">
+                            <a href="portfolio.html" class="mobile-menu-nav-link link">Portfolio</a>
+                        </li>
+                        <li class="mobile-menu-nav-items">
+                            <a href="" class="mobile-menu-nav-link link">Contacts</a>
+                        </li>
+                    </ul>
+                    <address class="mobile-address">
+                        <ul class="mobile-menu-contacts list">
+                            <li class="mobile-menu-contacts-items">
+                                <a class="mobile-menu-tel link" id="tel" href="tel:+110001111111">+11 (000)
+                                    111-11-11</a>
+                            </li>
+                            <li class="mobile-menu-contacts-items">
+                                <a class="mobile-menu-email link"
+                                    href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                        </ul>
+                    </address>
+
+                    <ul class="mobile-menu-social-block list">
+                        <li class="mobile-menu-sicial">
+                            <a href="" class="mobile-menu-social-links link">
+                                <svg class="team-soc-item-svg" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-sicial">
+                            <a href="" class="mobile-menu-social-links link">
+                                <svg class="team-soc-item-svg" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-sicial">
+                            <a href="" class="mobile-menu-social-links link">
+                                <svg class="team-soc-item-svg" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-sicial">
+                            <a href="" class="mobile-menu-social-links link">
+                                <svg class="team-soc-item-svg" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
 
-        </div>
+            </div>
     </header>
 
     <main>
@@ -58,12 +134,12 @@
 
         <section class="section-two">
             <div class="container">
-                <h2 hidden class="asds">a</h2>
+                <h2 hidden class="advantages-main-title">Our advantages</h2>
                 <ul class="list section-lists">
                     <li class="li-sec-two">
                         <ul class="section-two-icons list">
                             <li class="section-two-item">
-                                <svg class="section-two-icon" width="64" height="64">
+                                <svg class="section-two-icons" width="64" height="64">
                                     <use href="./images/icons-2.svg#icon-antenna-1"></use>
                                 </svg>
                             </li>
@@ -146,7 +222,7 @@
         <section class="section-four">
             <div class="container">
                 <h2 class="tip-two">Our Team</h2>
-                <ul class="list section-lists">
+                <ul class="list section-lists-2">
 
                     <li class="punkt"><img src="./images/img-4.jpg" alt="no picture found" width="264">
                         <div class="text-photos">
@@ -271,7 +347,7 @@
 
         <section class="section-five">
             <div class="container">
-                <h2 class="tip-two">Customers</h2>
+                <h2 class="tip-two customers-word">Customers</h2>
                 <ul class="customers-list list">
                     <li class="customers-item"><a href="" class="customers-link link">
                             <svg class="customers-icon" width="104" height="56">
@@ -311,64 +387,66 @@
 
     <footer class="footer">
         <div class="container footer-container">
-            <ul class="footer-text-display list">
-                <li class="footer-text-display-inc"><a href="./index.html" class="logo link footer-logo"> Web<span
-                            class="studio-two">Studio</span> </a>
-                    <p class="footer-text"> Increase the flow of customers and sales for your business with digital
-                        marketing &
-                        growth solutions.
-                    </p>
-                </li>
-                <li class="footer-text-display-inc">
-                    <p class="socials-footer"> Social Media </p>
-                    <ul class="team-soc-list-2 list footer-soc-list">
-                        <li class="team-soc-item"><a href="" class="team-soc-link-footer link">
-                                <svg class="team-soc-icon" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-instagram"></use>
-                                </svg>
-                            </a></li>
-                        <li class="team-soc-item"><a href="" class="team-soc-link-footer link">
-                                <svg class="team-soc-icon" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-twitter"></use>
-                                </svg>
-                            </a></li>
-                        <li class="team-soc-item"><a href="" class="team-soc-link-footer link">
-                                <svg class="team-soc-icon" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-facebook"></use>
-                                </svg>
-                            </a></li>
-                        <li class="team-soc-item"><a href="" class="team-soc-link-footer link">
-                                <svg class="team-soc-icon" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-linkedin"></use>
-                                </svg>
-                            </a></li>
-                    </ul>
-                </li>
-                <li class="sub-list">
-                    
+            <div class="footer-text-display">
+                <div class="tablet-footer-place">
+                    <div class="footer-text-display-inc-2"><a href="./index.html" class="logo link footer-logo">
+                            Web<span class="studio-two">Studio</span> </a>
+                        <p class="footer-text"> Increase the flow of customers and sales for your business with digital
+                            marketing &
+                            growth solutions.
+                        </p>
+                    </div>
+                    <div class="footer-text-display-inc">
+                        <p class="socials-footer"> Social Media </p>
+                        <ul class="team-soc-list-2 list footer-soc-list">
+                            <li class="team-soc-item"><a href="" class="team-soc-link-footer link">
+                                    <svg class="team-soc-icon" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                </a></li>
+                            <li class="team-soc-item"><a href="" class="team-soc-link-footer link">
+                                    <svg class="team-soc-icon" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                </a></li>
+                            <li class="team-soc-item"><a href="" class="team-soc-link-footer link">
+                                    <svg class="team-soc-icon" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </a></li>
+                            <li class="team-soc-item"><a href="" class="team-soc-link-footer link">
+                                    <svg class="team-soc-icon" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sub-list">
+
                     <p class="socials-footer-2">Subscribe</p>
                     <div class="sub-div">
-                    
-                        <input type="email" class="person-email" name="person-email"
-                            placeholder="E-mail"
-                            id="person-email">
-                        
-                        <button type="submit" class="sub-btn"> Subscribe
-                            <svg width="24" height="20" class="tele-icon">
-                                <use href="./images/icons-2.svg#icon-tele" ></use>
-                            </svg>
-                        </button>
-                       
+                        <form class="form-telegram">
+                            <input type="email" class="person-email" name="person-email" placeholder="E-mail"
+                                id="person-email">
+
+                            <button type="submit" class="sub-btn"> <span class="">Subscribe</span>
+                                <svg width="24" height="20" class="tele-icon">
+                                    <use href="./images/icons-2.svg#icon-tele"></use>
+                                </svg>
+                            </button>
+                        </form>
+
                     </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-x-btn" data-modal-close>
-                <svg class="" width="8" height="8">
+                <svg class="" width="8" height="8" class="close">
                     <use href="./images/x-mark.svg#icon-close-black-18dp-2-1"></use>
                 </svg>
             </button>
@@ -425,6 +503,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

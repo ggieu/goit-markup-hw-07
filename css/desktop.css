@@ -1,0 +1,216 @@
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
+
+    .logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        margin-right: 76px;
+    }
+
+    /* .section {
+        background-color: var(--main-title-color);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), ;
+        background-size: cover;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    .header {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-container {
+        margin-left: 156;
+        display: flex;
+        padding: 0;
+
+
+    }
+
+    .header-navigation {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+    }
+
+    .top-menu {
+        display: flex;
+        gap: 40px;
+        margin: 0;
+        padding-bottom: 24px;
+        padding-top: 24px;
+    }
+
+    .adr {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .top-menu-2 {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        padding-right: 0;
+    }
+
+    .section-two-icons {
+        display: block;
+    }
+
+    .company-info-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height, or 120% */
+        letter-spacing: 0.02em;
+    }
+
+    .section-two {}
+
+    .section-lists {
+        margin: 0;
+        padding-left: 0;
+        display: flex;
+        gap: 24px;
+    }
+
+    .para {
+        max-width: 264px;
+    }
+
+
+    .section-two {
+        margin-bottom: 120px;
+        margin-top: 120px;
+    }
+
+    .section-three {
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 120px;
+    }
+
+    .caption {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        /* or 107% */
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .tip-two {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--main-title-color);
+        margin-bottom: 50px;
+    }
+
+    .customers-list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+
+    }
+
+    .customers-item {
+        min-width: 168px;
+    }
+
+    .section-five {
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
+
+    .section-four {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-1.jpg);
+        padding: 188px 0;
+        background-size: cover;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer {
+        background-color: var(--main-title-color);
+    }
+    .footer.container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .footer-text-display {
+        display: flex;
+        justify-content: center;
+    }
+
+    .socials-footer {
+        color: white;
+        font-weight: 500;
+        padding-left: 120px;
+        padding-bottom: 16px;
+        text-align: left;
+        padding: 0;
+    }
+
+    .socials-footer-2 {
+        text-align: left;
+    }
+
+    .footer-text-display-inc-2 {
+   
+    }
+
+    .footer-text-display-inc {
+    
+        margin-right: 80px;
+    margin-left: 120px;
+    }
+
+    .footer-container {
+       
+    }
+
+    .tablet-footer-place {
+        flex-wrap: nowrap;
+    }
+
+    .form-telegram {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+}
