@@ -130,13 +130,19 @@
 
     .customers-list {
         display: flex;
+        flex-wrap: nowrap;
         justify-content: center;
         gap: 24px;
 
     }
 
+    .customers-list li {
+        min-width: calc((100% - 120px) / 6);
+        max-width: calc((100% - 120px) / 6);
+    }
+
     .customers-item {
-        min-width: 168px;
+    
     }
 
     .section-five {
