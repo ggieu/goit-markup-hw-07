@@ -104,6 +104,12 @@
 
    .company-info-text {
     text-align: left;
+
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height, or 111% */
+letter-spacing: 0.02em;
    }
 
    .li-sec-two {
@@ -121,6 +127,14 @@
     padding-top: 96px;
     padding-bottom: 96px;
 
+   }
+
+   .section-five {
+
+   }
+
+   .tablet-five-wrap {
+    max-width: 552px;
    }
 
    .section-lists-2 {
@@ -141,10 +155,17 @@
     margin-bottom: 72px;
    }
 
-   .customers-list {
-    gap: 24px;
-    row-gap: 72px;
+   /* .customers-item {
+    max-width: 168px;
+    min-width: 168px;
+   } */
+
+   .customers-link {
+    min-width: 0px;
+    height: 88px;
    }
+
+.section-five-wrap {}
 /* 
    .footer-text-display {
     display: flex;
@@ -236,6 +257,31 @@ text-align: left;
 
    .person-email {
     margin-right: 0;
+   }
+
+   .customers-list li {
+    min-width: calc((100% - 48px) / 3);
+    max-width: calc((100% - 48px) / 3);;
+   }
+
+   .section-five .container {
+    padding-left: 0px;
+    padding-right: 0px;
+   }
+
+   .customers-list {
+    gap: 24px;
+    row-gap: 72px;
+   }
+
+   .footer-text-display {
+    padding-right: 43px;
+   }
+
+   .footer-container {
+    /* margin-left: 0;
+    margin-right: 0;
+    padding: 0; */
    }
 
 }

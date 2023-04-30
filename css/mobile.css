@@ -32,8 +32,10 @@
 
   .section-four {
     display: block;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
-}
+
 
 .tip {
   font-style: normal;
@@ -43,4 +45,19 @@ line-height: 24px;
 /* identical to box height, or 120% */
 text-align: center;
 letter-spacing: 0.02em;
+}
+
+
+.tip-two-mobile {
+  margin-bottom: 0;
+}
+
+.section-lists-2 {
+  gap: 0px;
+}
+
+.punkt {
+
+}
+
 }
